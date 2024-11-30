@@ -6,7 +6,6 @@ import classes from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
 import HeaderEllipsisButton from "./HeaderEllipsisButton";
 import AppLogo from "../../assets/App_Logo.webp";
-import { FaSearch } from "react-icons/fa";
 
 function Header(props) {
   return (

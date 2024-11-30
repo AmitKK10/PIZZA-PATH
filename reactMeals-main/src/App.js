@@ -6,7 +6,6 @@ import CartProvider from "./store/CartProvider";
 import ContactForm from "./components/ContactSection/ContactForm";
 import RestaurantDetails from "./components/RestaurantDetails/RestaurantDetails";
 
-import PizzaCustomization from './components/PizzaCustomization/PizzaCustomization';
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);

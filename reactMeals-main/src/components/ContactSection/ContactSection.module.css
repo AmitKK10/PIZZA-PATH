@@ -1,0 +1,71 @@
+ .contactForm {
+    width: 50%;
+    max-width: 500px; /* Slightly wider for better readability */
+    margin: 20px auto;
+    padding: 20px 30px; /* Add inner padding for spacing */
+    background: linear-gradient(145deg, #ffffff, #f0f0f0); /* Subtle gradient */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: "Roboto", sans-serif; /* Modern font */
+  }
+  
+  .contactForm h3 {
+    text-align: center;
+    font-size: 24px; /* Larger font size for the heading */
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 12px 15px; /* Better spacing */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 38px; /* Rounded inputs */
+    background: #f9f9f9; /* Subtle input background */
+    font-size: 16px; /* Larger font for readability */
+    color: #555;
+    transition: all 0.3s ease; /* Smooth transitions */
+  }
+  
+  .contactForm input:focus,
+  .contactForm textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight border on focus */
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Focus glow effect */
+  }
+  
+  .contactForm textarea {
+    height: 100px; /* Fixed height for the textarea */
+    resize: none; /* Disable resizing for consistency */
+  }
+  
+  .contactForm button {
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient button */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Rounded button */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contactForm button:hover {
+    background: linear-gradient(90deg, #0056b3, #003f8a); /* Darker gradient */
+    transform: translateY(-3px); /* Hover lift effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Hover shadow */
+  }
+  
+  .contactForm button:active {
+    transform: translateY(1px); /* Click effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Reduce shadow */
+  }
+  
+  

@@ -1,0 +1,89 @@
+/*.details {
+    width: 100%;
+    background-color: rgb(220 22 22 / 34%); 
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .additionalDetails {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }*/
+
+
+  .details {
+    width: 100%;
+    max-width: 600px; /* Restrict width for better readability */
+    margin: 20px auto; /* Center the section */
+    background-color: rgba(34, 34, 34, 0.85); /* Subtle dark background */
+    color: #f4f4f4; /* Softer text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add depth */
+    padding: 20px; /* Add padding for spacing */
+    font-family: "Arial", sans-serif; /* Clean font */
+  }
+  
+  .details p {
+    margin: 10px 0;
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  .details strong {
+    color: #ffcc00; /* Highlighted labels */
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #ff6f47; /* Vibrant button color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .button:hover {
+    background-color: #ff4c29; /* Darker shade on hover */
+  }
+  
+  .additionalDetails {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Separate additional details */
+  }
+  
+  a {
+    color: #ffcc00; /* Highlight links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  

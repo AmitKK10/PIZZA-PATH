@@ -1,0 +1,85 @@
+.meal {
+  list-style: none;
+  margin: 2rem auto;
+  width: 70%;
+  max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.container{
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block; /* No flex below 700px */
+  }
+}
+.image{
+  width: 30%;
+  max-width: 25rem;
+  border-radius: 50px;
+  margin: 30px;
+}
+@media (max-width: 768px) {
+  .image {
+    width: 100%; /* Width to be full below 1000px */
+    height: 200px; /* Height of 400px below 1000px */
+    margin: 0 auto ;
+  }
+
+}
+@media (max-width: 768px) {
+  .meal {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.content h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #555; /* Gray color */
+}
+
+.content .description {
+  font-size: 1rem;
+  color: #555; /* Gray color */
+}
+
+.price {
+  font-size: 1.4rem;
+  font: bold;
+  color: #555; /* Gray color */
+}
+
+@media (max-width: 768px) {
+  .price {
+    margin-top: 0.5rem;
+  }
+}
+
+.meal img {
+  width: 40%; /* Adjust as needed */
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .meal img {
+    width: 100%;
+    height: auto;
+  }
+}

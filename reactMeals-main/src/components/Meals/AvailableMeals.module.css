@@ -1,0 +1,87 @@
+/*.meals {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+  */
+
+
+
+
+  .meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+  }
+  
+  .meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .meals {
+      width: 95%; /* Allow meals container to use more width on smaller screens */
+      margin: 1rem auto; /* Reduce margin */
+    }
+  
+    .meals ul {
+      padding-left: 10px; /* Add a little padding on smaller screens */
+    }
+  
+    /* Optionally, reduce font size or adjust other styles */
+    .meals li {
+      font-size: 0.9rem; /* Adjust font size on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .meals {
+      width: 100%; /* Allow it to take up the full width */
+      margin: 0; /* Remove margin */
+    }
+  
+    .meals ul {
+      padding-left: 5px; /* Adjust padding for very small screens */
+    }
+  
+    /* Adjust items in the list for better visibility */
+    .meals li {
+      font-size: 0.8rem; /* Make font size smaller on very small screens */
+      padding: 10px; /* Add padding for better touch interactions */
+    }
+  }
+  

@@ -5,7 +5,6 @@ import Meals from "./components/Meals/Meals";
 import CartProvider from "./store/CartProvider";
 import ContactForm from "./components/ContactSection/ContactForm";
 import RestaurantDetails from "./components/RestaurantDetails/RestaurantDetails";
-import SearchIcon from "./components/Search/SearchIcon";
 
 import PizzaCustomization from './components/PizzaCustomization/PizzaCustomization';
 
